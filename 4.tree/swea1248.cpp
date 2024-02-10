@@ -51,7 +51,7 @@ int main(){
     int T;
     freopen("swea1248_input.txt","r",stdin);
     cin >> T;
-    for(int t = 1; t <T; t++){
+    for(int t = 1; t <=T; t++){
         init();
         int ancestor, size;
         cin >> v >> e >> start[0] >> start[1];
